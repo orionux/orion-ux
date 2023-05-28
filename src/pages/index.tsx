@@ -2,6 +2,7 @@ import Counters from '@/components/homeComponents/Counters'
 import GetInTouch from '@/components/homeComponents/GetInTouch'
 import HeroSection from '@/components/homeComponents/HeroSection'
 import IndustryLeaders from '@/components/homeComponents/IndustryLeaders'
+import VisitMarket from '@/components/homeComponents/VisitMarket'
 import VisitSection from '@/components/homeComponents/VisitSection'
 import Head from 'next/head'
 
@@ -19,6 +20,7 @@ export default function Home() {
           <HeroSection />
           <Counters />
           <IndustryLeaders />
+          <VisitMarket />
           <VisitSection />
           <GetInTouch />
         </div>
