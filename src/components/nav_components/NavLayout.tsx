@@ -19,13 +19,16 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
   }
 
   return (
-    <>
-      <nav className="navbar navbar-expand-xl main-padding padding-x-100px " style={{backgroundColor:"#fff !important"}}>
+    <div className='p-0 m-0 position-relative'>
+      <div className="d-none d-lg-block nav-header-img">
+        <Image src={'/assests/images/nav-bg.png'} alt='' width={1360} height={350} />
+      </div>
+      <nav className="navbar navbar-expand-xl main-padding padding-x-100px position-relative z999">
         <div className="container-fluid px-0">
           {/* side logo area */}
           <div className="d-flex flex-row justify-content-center align-items-center">
               <Link className="navbar-brand font-lg mb-0" href="#">
-                <Image src={"/assests/images/logo-black.svg"} alt='' width={150} height={80} />
+                <Image src={"/assests/images/logo.svg"} alt='' width={180} height={100} />
               </Link>
           </div>
           {/* mobile toggle button */}
@@ -65,10 +68,11 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
             </div>
           </div>
         </div>
+
       </nav>
       <ActiveNav />
       {children}
-    </>
+    </div>
   )
 }
 

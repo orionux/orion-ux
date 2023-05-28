@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main >
-        <div className="container-fluid p-0 m-0">
+        <div className="container-fluid p-0 m-0 bg-color-white">
           <HeroSection />
           <Counters />
           <GetInTouch />

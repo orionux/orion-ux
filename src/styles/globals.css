@@ -237,6 +237,20 @@ p, a, select, label, input, ul, li{
 }
 
 
+.nav-header-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw !important;
+    height: 250px;
+    z-index: 99;
+}
+
+
+.z999{
+    z-index: 9999;
+}
+
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
     .hero-img-size{
