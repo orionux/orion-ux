@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary:  'Raleway', sans-serif;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-yellow: #E1AA00;
+    --color-light: #E0E0E0;
+    --color-gray: #4F4F4F;
+    --space: 100px;
+    --oneside-space: 100px;
+}
+@media only screen and (max-width: 992px) {
+    :root{
+        --space: 20px;
+        --oneside-space: 0px;
+    }
+}
+.main-wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+    font-family: var(--font-primary);
+
+}
+p, a, select, label, input, ul, li{
+    font-family: var(--font-secondary);
+}
+
+.font-inter{
+    font-family: var(--font-primary);
+}
+.font-raleway{
+    font-family: var(--font-secondary);
+}
+
+
+
+/* font sizes */
+.font-72px{
+    font-size: 72px;
+}
+.font-64px{
+    font-size: 64px;
+}
+.font-48px{
+    font-size: 48px;
+}
+.font-42px{
+    font-size: 42px;
+}
+.font-32px{
+    font-size: 32px;
+    line-height: 35px;
+}
+.font-28px{
+    font-size: 28px;
+    line-height: 31px;
+}
+.font-26px{
+    font-size: 26px;
+    line-height: 29px;
+}
+.font-24px{
+    font-size: 24px;
+    line-height: 27px;
+}
+.font-22px{
+    font-size: 22px;
+}
+.font-21px{
+    font-size: 21px;
+}
+.font-18px{
+    font-size: 18px;
+}
+
+
+
+
+/* font-weight */
+.font-100{
+    font-weight: 100
+}
+.font-200{
+    font-weight: 200
+}
+.font-300{
+    font-weight: 300
+}
+.font-400{
+    font-weight: 400
+}
+.font-500{
+    font-weight: 500
+}
+.font-600{
+    font-weight: 600
+}
+.font-700{
+    font-weight: 700
+}
+.font-800{
+    font-weight: 800
+}
+.font-900{
+    font-weight: 900
+}
+
+
+
+/* bg colors */
+.bg-color-yellow{
+    background-color: var(--color-yellow);
+}
+.bg-color-black{
+    background-color: var(--color-black);
+}
+.bg-color-white{
+    background-color: var(--color-white);
+}
+.bg-color-light{
+    background-color: var(--color-light);
+}
+.bg-color-gray{
+    background-color: var(--color-gray);
+}
+
+
+
+/* text colors */
+.txt-color-yellow{
+    color: var(--color-yellow);
+}
+.txt-color-black{
+    color: var(--color-black);
+}
+.txt-color-white{
+    color: var(--color-white);
+}
+.txt-color-light{
+    color: var(--color-light);
+}
+.txt-color-gray{
+    color: var(--color-gray);
+}
+
+
+
+/* space */
+.padding-left-100px{
+    padding-left: var(--oneside-space);
+}
+.padding-right-100px{
+    padding-right: var(--oneside-space);
+}
+.padding-x-100px{
+    padding-left: var(--space);
+    padding-right: var(--space);
+}
+
+
+
+
+
+/* height */
+.height-80vh{
+    min-height: 80vh;
+    height: auto;
+}
+
+
+
+
+
+
+/* buttons */
+.btn-hero-sec{
+    width: 200px;
+    height: 60px;
+}
+
+
+
+
+/* imgs */
+.hero-img-size{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+/* nav bar */
+.nav-link{
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-black);
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    transition: width 0.5s ease-out; 
+}
+.active-nav{
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--color-black);
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+}
+
+
+/* =================== media quaires ===================== */
+@media only screen and (max-width: 992px) {
+    .hero-img-size{
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+}
