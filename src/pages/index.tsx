@@ -1,3 +1,4 @@
+import Counters from '@/components/homeComponents/Counters'
 import HeroSection from '@/components/homeComponents/HeroSection'
 import Head from 'next/head'
 
@@ -13,6 +14,7 @@ export default function Home() {
       <main >
         <div className="container-fluid p-0 m-0">
           <HeroSection />
+          <Counters />
         </div>
       </main>
     </>
