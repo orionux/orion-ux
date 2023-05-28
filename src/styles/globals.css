@@ -8,6 +8,7 @@
     --color-yellow: #E1AA00;
     --color-light: #E0E0E0;
     --color-gray: #4F4F4F;
+    --color-dark-gray: #303135;
     --space: 100px;
     --oneside-space: 100px;
 }
@@ -132,6 +133,9 @@ p, a, select, label, input, ul, li{
 }
 .bg-color-gray{
     background-color: var(--color-gray);
+}
+.bg-color-dark-gray{
+    background-color: var(--color-dark-gray);
 }
 
 
