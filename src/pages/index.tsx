@@ -1,4 +1,5 @@
 import Counters from '@/components/homeComponents/Counters'
+import GetInTouch from '@/components/homeComponents/GetInTouch'
 import HeroSection from '@/components/homeComponents/HeroSection'
 import Head from 'next/head'
 
@@ -15,6 +16,7 @@ export default function Home() {
         <div className="container-fluid p-0 m-0">
           <HeroSection />
           <Counters />
+          <GetInTouch />
         </div>
       </main>
     </>
