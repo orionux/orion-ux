@@ -2,6 +2,7 @@ import Counters from '@/components/homeComponents/Counters'
 import GetInTouch from '@/components/homeComponents/GetInTouch'
 import HeroSection from '@/components/homeComponents/HeroSection'
 import IndustryLeaders from '@/components/homeComponents/IndustryLeaders'
+import Reason from '@/components/homeComponents/Reason'
 import Target from '@/components/homeComponents/Target'
 import VisitMarket from '@/components/homeComponents/VisitMarket'
 import VisitSection from '@/components/homeComponents/VisitSection'
@@ -20,7 +21,7 @@ export default function Home() {
         <div className="container-fluid p-0 m-0 bg-color-white">
           <HeroSection />
           <Counters />
-          
+          <Reason />
           <Target />
           <IndustryLeaders /> 
           <VisitMarket />
