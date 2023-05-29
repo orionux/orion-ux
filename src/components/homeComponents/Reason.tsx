@@ -17,7 +17,7 @@ const Reason = () => {
                     <div className="d-flex flex-column flex-lg-row mb-5">
                         <div className="col-12 col-lg-4 d-flex flex-row">
                             <div className="col-4 me-2">
-                                <Image src={'/assests/images/icon-1.png'} alt='' width={100} height={100} className='img-fluid' />
+                                <Image src={'/assests/images/icon-1.png'} alt='' width={80} height={60} className='img-fluid reason-icon' />
                             </div>
                             <div className="col-8">
                                 <p>new design trends</p>
@@ -25,7 +25,7 @@ const Reason = () => {
                         </div>
                         <div className="col-12 col-lg-4 d-flex flex-row">
                             <div className="col-4 me-2">
-                                <Image src={'/assests/images/icon-2.png'} alt='' width={100} height={100} className='img-fluid' />
+                                <Image src={'/assests/images/icon-2.png'} alt='' width={80} height={60} className='img-fluid reason-icon' />
                             </div>
                             <div className="col-8">
                                 <p>Line up with requirements</p>
@@ -33,7 +33,7 @@ const Reason = () => {
                         </div>
                         <div className="col-12 col-lg-4 d-flex flex-row">
                             <div className="col-4 me-2">
-                                <Image src={'/assests/images/icon-3.png'} alt='' width={100} height={100} className='img-fluid' />
+                                <Image src={'/assests/images/icon-3.png'} alt='' width={80} height={60} className='img-fluid reason-icon' />
                             </div>
                             <div className="col-8">
                                 <p>use latest technology </p>

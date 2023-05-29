@@ -219,7 +219,10 @@ p, a, select, label, input, ul, li{
     right: 0;
 }
 
-
+.reason-icon{
+    width: 80px !important;
+    height: 60px !important;
+}
 
 
 
