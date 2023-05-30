@@ -1,12 +1,12 @@
-import Counters from '@/components/homeComponents/Counters'
-import GetInTouch from '@/components/homeComponents/GetInTouch'
-import HeroSection from '@/components/homeComponents/HeroSection'
-import IndustryLeaders from '@/components/homeComponents/IndustryLeaders'
-import Reason from '@/components/homeComponents/Reason'
-import Target from '@/components/homeComponents/Target'
-import VisitMarket from '@/components/homeComponents/VisitMarket'
-import VisitSection from '@/components/homeComponents/VisitSection'
-import Head from 'next/head'
+import Counters from "@/components/homeComponents/Counters";
+import GetInTouch from "@/components/homeComponents/GetInTouch";
+import HeroSection from "@/components/homeComponents/HeroSection";
+import IndustryLeaders from "@/components/homeComponents/IndustryLeaders";
+import Reason from "@/components/homeComponents/Reason";
+import Target from "@/components/homeComponents/Target";
+import VisitMarket from "@/components/homeComponents/VisitMarket";
+import VisitSection from "@/components/homeComponents/VisitSection";
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -17,18 +17,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
+      <main>
         <div className="container-fluid p-0 m-0 bg-color-white">
           <HeroSection />
           <Counters />
           <Reason />
           <Target />
-          <IndustryLeaders /> 
+          <IndustryLeaders />
           <VisitMarket />
           <VisitSection />
           <GetInTouch />
         </div>
       </main>
     </>
-  )
+  );
 }

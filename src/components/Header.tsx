@@ -1,16 +1,14 @@
-import React from 'react'
-import NavLayout from './nav_components/NavLayout';
+import React from "react";
+import NavLayout from "./nav_components/NavLayout";
 
-
-type Props = {}
+type Props = {};
 
 function Header() {
-  
   return (
     <header>
       <NavLayout />
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
