@@ -24,7 +24,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
           height={350}
         />
       </div>
-      <nav className="navbar navbar-expand-xl main-padding padding-x-100px position-relative z999">
+      <nav className="navbar navbar-expand-xl main-padding padding-x-100px px-5 position-relative z999">
         <div className="container-fluid px-0">
           {/* side logo area */}
           <div className="d-flex flex-row justify-content-center align-items-center">
