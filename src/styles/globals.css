@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-:root{
+:root {
     --font-primary: 'Inter', sans-serif;
-    --font-secondary:  'Raleway', sans-serif;
+    --font-secondary: 'Raleway', sans-serif;
     --color-black: #000;
     --color-white: #fff;
     --color-yellow: #E1AA00;
@@ -12,163 +12,210 @@
     --space: 100px;
     --oneside-space: 100px;
 }
+
 @media only screen and (max-width: 992px) {
-    :root{
+    :root {
         --space: 20px;
         --oneside-space: 0px;
     }
 }
-.main-wrapper{
+
+.main-wrapper {
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
     background-color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6, a{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
     font-family: var(--font-primary);
 
 }
-p, a, select, label, input, ul, li{
+
+p,
+a,
+select,
+label,
+input,
+ul,
+li {
     font-family: var(--font-secondary);
 }
 
-.font-inter{
+.font-inter {
     font-family: var(--font-primary);
 }
-.font-raleway{
+
+.font-raleway {
     font-family: var(--font-secondary);
 }
-.font-space-g{
+
+.font-space-g {
     font-family: 'Space Grotesk', sans-serif;
 }
 
 
 
 /* font sizes */
-.font-72px{
+.font-72px {
     font-size: 72px;
 }
-.font-64px{
+
+.font-64px {
     font-size: 64px;
 }
-.font-48px{
+
+.font-48px {
     font-size: 48px;
 }
-.font-42px{
+
+.font-42px {
     font-size: 42px;
 }
-.font-32px{
+
+.font-32px {
     font-size: 32px;
     line-height: 35px;
 }
-.font-28px{
+
+.font-28px {
     font-size: 28px;
     line-height: 31px;
 }
-.font-26px{
+
+.font-26px {
     font-size: 26px;
     line-height: 29px;
 }
-.font-24px{
+
+.font-24px {
     font-size: 24px;
     line-height: 27px;
 }
-.font-22px{
+
+.font-22px {
     font-size: 22px;
 }
-.font-21px{
+
+.font-21px {
     font-size: 21px;
 }
-.font-18px{
+
+.font-18px {
     font-size: 18px;
 }
-.font-16px{
+
+.font-16px {
     font-size: 16px;
 }
 
 
 
 /* font-weight */
-.font-100{
+.font-100 {
     font-weight: 100
 }
-.font-200{
+
+.font-200 {
     font-weight: 200
 }
-.font-300{
+
+.font-300 {
     font-weight: 300
 }
-.font-400{
+
+.font-400 {
     font-weight: 400
 }
-.font-500{
+
+.font-500 {
     font-weight: 500
 }
-.font-600{
+
+.font-600 {
     font-weight: 600
 }
-.font-700{
+
+.font-700 {
     font-weight: 700
 }
-.font-800{
+
+.font-800 {
     font-weight: 800
 }
-.font-900{
+
+.font-900 {
     font-weight: 900
 }
 
 
 
 /* bg colors */
-.bg-color-yellow{
+.bg-color-yellow {
     background-color: var(--color-yellow);
 }
-.bg-color-black{
+
+.bg-color-black {
     background-color: var(--color-black);
 }
-.bg-color-white{
+
+.bg-color-white {
     background-color: var(--color-white);
 }
-.bg-color-light{
+
+.bg-color-light {
     background-color: var(--color-light);
 }
-.bg-color-gray{
+
+.bg-color-gray {
     background-color: var(--color-gray);
 }
-.bg-color-dark-gray{
+
+.bg-color-dark-gray {
     background-color: var(--color-dark-gray);
 }
 
 
 
 /* text colors */
-.txt-color-yellow{
+.txt-color-yellow {
     color: var(--color-yellow);
 }
-.txt-color-black{
+
+.txt-color-black {
     color: var(--color-black);
 }
-.txt-color-white{
+
+.txt-color-white {
     color: var(--color-white);
 }
-.txt-color-light{
+
+.txt-color-light {
     color: var(--color-light);
 }
-.txt-color-gray{
+
+.txt-color-gray {
     color: var(--color-gray);
 }
 
 
 
 /* space */
-.padding-left-100px{
+.padding-left-100px {
     padding-left: var(--oneside-space);
 }
-.padding-right-100px{
+
+.padding-right-100px {
     padding-right: var(--oneside-space);
 }
-.padding-x-100px{
+
+.padding-x-100px {
     padding-left: var(--space);
     padding-right: var(--space);
 }
@@ -178,7 +225,7 @@ p, a, select, label, input, ul, li{
 
 
 /* height */
-.height-80vh{
+.height-80vh {
     min-height: 80vh;
     height: auto;
 }
@@ -189,11 +236,12 @@ p, a, select, label, input, ul, li{
 
 
 /* buttons */
-.btn-hero-sec{
+.btn-hero-sec {
     width: 200px;
     height: 60px;
 }
-.get-in-touch-btn{
+
+.get-in-touch-btn {
     width: 200px;
     height: 50px;
     background-color: var(--color-white);
@@ -202,7 +250,8 @@ p, a, select, label, input, ul, li{
     z-index: 2;
     font-family: 'Space Grotesk', sans-serif;
 }
-.click-here-btn-img{
+
+.click-here-btn-img {
     width: 130px;
     height: auto;
     margin-left: -50px;
@@ -213,13 +262,13 @@ p, a, select, label, input, ul, li{
 
 
 /* imgs */
-.hero-img-size{
+.hero-img-size {
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
-.reason-icon{
+.reason-icon {
     width: 80px !important;
     height: 60px !important;
 }
@@ -229,18 +278,19 @@ p, a, select, label, input, ul, li{
 
 
 /* nav bar */
-.nav-link{
+.nav-link {
     font-family: var(--font-primary) !important;
-    font-size: 16px !important ;
+    font-size: 16px !important;
     font-weight: 300 !important;
     color: var(--color-black) !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     font-weight: 600 !important;
-    transition: width 0.5s ease-out !important; 
+    transition: width 0.5s ease-out !important;
 }
-.active-nav{
+
+.active-nav {
     font-weight: 600 !important;
     text-decoration: underline !important;
     text-decoration-color: var(--color-black) !important;
@@ -249,7 +299,7 @@ p, a, select, label, input, ul, li{
 }
 
 
-.nav-header-img{
+.nav-header-img {
     position: absolute !important;
     left: 0 !important;
     top: 0 !important;
@@ -259,17 +309,30 @@ p, a, select, label, input, ul, li{
 }
 
 
-.z999{
+.z999 {
     z-index: 9999 !important;
+}
+
+.margin-minus {
+    margin-top: -40px !important;
+}
+
+.position-style {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
 }
 
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
-    .hero-img-size{
+    .hero-img-size {
         position: relative;
+    }
+
+    .margin-minus {
+        margin-top: 0px !important;
     }
 }
 
-@media only screen and (max-width: 600px){
-
-}
+@media only screen and (max-width: 600px) {}
