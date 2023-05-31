@@ -216,8 +216,8 @@ li {
 }
 
 .padding-x-100px {
-    padding-left: var(--space);
-    padding-right: var(--space);
+    padding-left: var(--space) !important;
+    padding-right: var(--space) !important;
 }
 
 
