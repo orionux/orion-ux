@@ -22,6 +22,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
           alt=""
           width={1360}
           height={350}
+          className="img-fluid"
         />
       </div>
       <nav className="navbar navbar-expand-xl main-padding padding-x-100px px-5 position-relative z999">
