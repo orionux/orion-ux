@@ -334,7 +334,19 @@ li {
 .verticle-line{
     border-right: solid 1px #000;
 }
-
+.links-title-footer{
+    color: #47536D;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: var(--font-primary) !important;
+}
+.footer-links{
+    text-decoration: none;
+    color: #47536D;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: var(--font-secondary) !important;
+}
 
 
 
