@@ -63,6 +63,8 @@ const Footer = (props: Props) => {
 
 
   return (
+    <div className="d-flex flex-column p-0 m-0">
+      <div className="vr-line"></div>
     <div className="d-flex flex-column  justify-content-center align-items-center flex-lg-row footer-top-border py-4 main-padding padding-x-100px ">
       <div className="col-12 col-lg-7 d-flex flex-column footer-cols mb-3">
         <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center">
@@ -113,6 +115,8 @@ const Footer = (props: Props) => {
           ))}
         </div>
       </div>
+    </div>
+    <div className="vr-line-dark"></div>
     </div>
   );
 };

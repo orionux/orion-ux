@@ -4,7 +4,7 @@ import React from 'react'
 const GetInTouch = () => {
   return (
     <>
-    <div className="d-flex flex-column text-center py-5 justify-content-center align-items-center">
+    <div className="d-flex flex-column text-center pt-5 pb-0 mb-0 justify-content-center align-items-center">
         <h2 className='col-12 col-lg-7 font-500 font-space-g font-32px mt-5'>Get Ready to Maximize Your Productivity With Our Design Solutions</h2>
         <div className="d-flex justify-content-center align-items-center position-relative pt-3">
             <button className='get-in-touch-btn font-700'>
