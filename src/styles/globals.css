@@ -332,7 +332,7 @@ li {
     color: #64769B !important;
 }
 .verticle-line{
-    border-right: solid 1px #000;
+    border-left: solid 1px #000;
 }
 .links-title-footer{
     color: #47536D;
@@ -358,6 +358,9 @@ li {
 
     .margin-minus {
         margin-top: 0px !important;
+    }
+    .verticle-line{
+        border: none !important;
     }
 }
 
