@@ -323,6 +323,20 @@ li {
     right: 30px;
     cursor: pointer;
 }
+.footer-title{
+    font-size: 68px;
+    color: #47536D !important;
+}
+.link-footer{
+    font-size: 22px;
+    color: #64769B !important;
+}
+.verticle-line{
+    border-right: solid 1px #000;
+}
+
+
+
 
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
