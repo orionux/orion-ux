@@ -11,6 +11,11 @@
     --color-dark-gray: #303135;
     --space: 100px;
     --oneside-space: 100px;
+    --color-light-gren: #9BCE51;
+    --color-light-purple: #D4A3EB;
+    --color-light-orange: #F3A678;
+    --color-light-blue: #B2DBE0;
+    --color-light-pink: #FF667D;
 }
 
 @media only screen and (max-width: 992px) {
@@ -180,7 +185,21 @@ li {
 .bg-color-dark-gray {
     background-color: var(--color-dark-gray);
 }
-
+.bg-light-pink {
+    background-color: var(--color-light-pink);
+}
+.bg-light-blue {
+    background-color: var(--color-light-blue);
+}
+.bg-light-orange {
+    background-color: var(--color-light-orange);
+}
+.bg-light-purple {
+    background-color: var(--color-light-purple);
+}
+.bg-light-green {
+    background-color: var(--color-light-gren);
+}
 
 
 /* text colors */
@@ -202,6 +221,9 @@ li {
 
 .txt-color-gray {
     color: var(--color-gray);
+}
+.txt-color-dark-gray {
+    color: var(--color-dark-gray);
 }
 
 
@@ -357,6 +379,18 @@ li {
     height: 50px;
     background: #303135;
 
+}
+.hr-decor{
+ width: 100px;
+ height: 5px;
+ background-color: #E1AA00;
+}
+.btn-link-latest{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: max-content;
+    font-family: var(--font-primary);
 }
 
 /* =================== media quaires ===================== */
