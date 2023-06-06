@@ -79,7 +79,9 @@ li {
 .font-48px {
     font-size: 48px;
 }
-
+.font-46px {
+    font-size: 46px;
+}
 .font-42px {
     font-size: 42px;
 }
@@ -119,7 +121,12 @@ li {
 .font-16px {
     font-size: 16px;
 }
-
+.font-14px {
+    font-size: 14px;
+}
+.font-12px {
+    font-size: 12px;
+}
 
 
 /* font-weight */
@@ -411,6 +418,11 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
+}
+.hr-gray{
+    width: 150px;
+    height: 1px;
+    background-color: #858585;
 }
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
