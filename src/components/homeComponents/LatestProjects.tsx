@@ -1,8 +1,24 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 const LatestProjects = () => {
+  const [image, setImage] = useState('/assests/images/laptop-yellow.png');
+  const handleClickPink = () => {
+    setImage('/assests/images/laptop-pink.png');
+  };
+  const handleClickBlue = () => {
+    setImage('/assests/images/laptop-pink.png');
+  };
+  const handleClickOrange = () => {
+    setImage('/assests/images/laptop-pink.png');
+  };
+  const handleClickPurple = () => {
+    setImage('/assests/images/laptop-pink.png');
+  };
+  const handleClickGreen = () => {
+    setImage('/assests/images/laptop-pink.png');
+  };
   return (
     <>
       <div className="d-flex bg-color-dark-gray py-5 padding-x-100px">
@@ -43,7 +59,7 @@ const LatestProjects = () => {
                 </div>
                 <div className="col-12 col-lg-9 text-center d-flex flex-column align-items-center ">
                   <h3 className="font-inter font-700 font-32px pt-5" style={{ color: '#EDB507' }}>Bowwow.lk</h3>
-                  <Image src={'/assests/images/laptop-yellow.png'} alt='' width={400} height={225} />
+                  <Image src={image} alt='' width={400} height={225} />
                   <div className="d-flex flex-column justify-content-start align-items-start">
                     <p className="font-inter font-400 font-14px text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsum quis pellentesque nisl.</p>
                     <div className="hr-gray mt-3 mb-4"></div>
@@ -57,7 +73,7 @@ const LatestProjects = () => {
           </div>
           <div className="d-flex flex-column flex-lg-row row row-cols-1 row-cols-md-2 row-cols-lg-5 col-position">
             {/* col 1 */}
-            <div className="col col-pink col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickPink} className="col col-pink col-laptop d-flex flex-column justify-content-center align-items-center">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}
@@ -75,7 +91,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* col 2 */}
-            <div className="col col-blue col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickBlue} className="col col-blue col-laptop d-flex flex-column justify-content-center align-items-center">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}
@@ -93,7 +109,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* col 3 */}
-            <div className="col col-orange col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickOrange} className="col col-orange col-laptop d-flex flex-column justify-content-center align-items-center">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}
@@ -111,7 +127,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* col 4 */}
-            <div className="col col-purple col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickPurple} className="col col-purple col-laptop d-flex flex-column justify-content-center align-items-center">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}
@@ -129,7 +145,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* col 5 */}
-            <div className="col col-green col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickGreen} className="col col-green col-laptop d-flex flex-column justify-content-center align-items-center">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}
