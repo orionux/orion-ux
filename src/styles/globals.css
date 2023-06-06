@@ -381,9 +381,10 @@ li {
 
 }
 .hr-decor{
- width: 100px;
+ width: 150px;
  height: 5px;
  background-color: #E1AA00;
+ float: right;
 }
 .btn-link-latest{
     background-color: transparent;
@@ -392,7 +393,25 @@ li {
     width: max-content;
     font-family: var(--font-primary);
 }
-
+.space-1{
+    margin-right: -25px;
+}
+.space-2{
+    margin-right: -50px;
+}
+.space-3{
+    margin-right: -75px;
+}
+.space-4{
+    margin-right: -100px;
+}
+.rectangle-bg{
+    background-image: url('../../public/assests/images/Rectangle.png');
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
     .hero-img-size {
@@ -407,4 +426,12 @@ li {
     }
 }
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .space-1, .space-2, .space-3{
+        margin-right: 0px;
+    }
+    .hr-decor{
+        float: none;
+        margin-right: 0px;
+    }
+}
