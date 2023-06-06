@@ -426,10 +426,13 @@ li {
     height: 1px;
     background-color: #858585;
 }
+.watch-link{
+    text-decoration: none !important;
+}
 
 /* column designs */
 .col-laptop{
-    width: 20vw;
+    width: 19vw;
     height: 220px;
     cursor: pointer;
 }

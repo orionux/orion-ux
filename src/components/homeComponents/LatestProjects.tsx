@@ -62,8 +62,8 @@ const LatestProjects = () => {
                   <Image src={image} alt='' width={400} height={225} />
                   <div className="d-flex flex-column justify-content-start align-items-start">
                     <p className="font-inter font-400 font-14px text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsum quis pellentesque nisl.</p>
-                    <div className="hr-gray mt-3 mb-4"></div>
-                    <a href="" className="font-18px font-500 font-inter text-start text-dark" style={{ textDecoration: 'none' }}>
+                    <div className="hr-gray mt-2"></div>
+                    <a href="" className="font-18px font-500 font-inter text-start text-dark watch-link mt-2 mb-3" style={{ textDecoration: 'none' }}>
                       Watch full Project
                     </a>
                   </div>
@@ -163,7 +163,15 @@ const LatestProjects = () => {
               </div>
             </div>
           </div>
-          <div className="spacer"></div>
+          <div className="spacer">
+          <Image
+                src={"/assests/images/visit-marketplace.png"}
+                alt=""
+                width={150}
+                height={150}
+                className="img-fluid "
+              />
+          </div>
         </div>
       </div>
     </>
