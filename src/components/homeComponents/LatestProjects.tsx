@@ -21,7 +21,7 @@ const LatestProjects = () => {
   };
   return (
     <>
-      <div className="d-flex bg-color-dark-gray py-5 padding-x-100px">
+      <div className="d-none d-lg-flex bg-color-dark-gray py-5 padding-x-100px">
         <div className="d-flex flex-column w-100 position-relative">
           <div className="d-flex flex-column flex-lg-row">
             <div className="col-12 col-lg-4 mt-5">
