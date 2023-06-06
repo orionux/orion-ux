@@ -71,6 +71,7 @@ const LatestProjects = () => {
               </div>
             </div>
           </div>
+          
           <div className="d-flex flex-column flex-lg-row row row-cols-1 row-cols-md-2 row-cols-lg-5 col-position">
             {/* col 1 */}
             <div onClick={handleClickPink} className="col col-pink col-laptop d-flex flex-column justify-content-center align-items-center">
