@@ -415,7 +415,7 @@ li {
     margin-right: -100px;
 }
 .rectangle-bg{
-    background-image: url('../../public/assests/images/Rectangle.png');
+    background-image: url('/assests/images/Rectangle.png');
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
