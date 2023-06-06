@@ -432,7 +432,7 @@ li {
 
 /* column designs */
 .col-laptop{
-    width: 20vw;
+    width: 19vw !important;
     height: 220px;
     cursor: pointer;
 }
