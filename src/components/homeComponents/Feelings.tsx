@@ -55,35 +55,35 @@ const Feelings = () => {
             style={{ listStyle: "none" }}
           >
             <li
-              className="d-flex flex-row align-items-center"
+              className={`d-flex flex-row align-items-center ${selectedItem === "UI/UX Design" ? "selected" : ""}`}
               style={{}}
               onClick={() => handleItemClick("UI/UX Design")}
             >
               <div className="linebullet me-3"></div> UI/UX Design
             </li>
             <li
-              className="d-flex flex-row align-items-center"
+              className={`d-flex flex-row align-items-center ${selectedItem === "Software Development" ? "selected" : ""}`}
               style={{}}
               onClick={() => handleItemClick("Software Development")}
             >
               <div className="linebullet me-3"></div> Software Development
             </li>
             <li
-              className="d-flex flex-row align-items-center"
+              className={`d-flex flex-row align-items-center ${selectedItem === "Branding" ? "selected" : ""}`}
               style={{}}
               onClick={() => handleItemClick("Branding")}
             >
               <div className="linebullet me-3"></div> Branding
             </li>
             <li
-              className="d-flex flex-row align-items-center"
+              className={`d-flex flex-row align-items-center ${selectedItem === "Digital marketing" ? "selected" : ""}`}
               style={{}}
               onClick={() => handleItemClick("Digital marketing")}
             >
               <div className="linebullet me-3"></div> Digital marketing
             </li>
             <li
-              className="d-flex flex-row align-items-center"
+              className={`d-flex flex-row align-items-center ${selectedItem === "Our Products" ? "selected" : ""}`}
               style={{}}
               onClick={() => handleItemClick("Our Products")}
             >

@@ -502,11 +502,13 @@ li {
     height: 3px;
     background-color: transparent;
 }
+.selected .linebullet,
 .feelings-sec ul li:hover .linebullet, 
 .feelings-sec ul li:active .linebullet,
 .feelings-sec ul li:focus .linebullet{
     background-color: var(--color-yellow);
 }
+.selected,
 .feelings-sec ul li:hover,
 .feelings-sec ul li:active,
 .feelings-sec ul li:focus{
