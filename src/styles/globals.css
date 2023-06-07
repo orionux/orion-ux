@@ -487,12 +487,38 @@ li {
 .col-green:hover {
   margin-top: -20px;
 }
-
-
-
+.feelings-sec ul{
+    margin-top: 30px;
+}
+.feelings-sec ul li{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.vr-line-feelings{
+    border-right: solid 3px #E1AA00 ;
+}
+.linebullet{
+    width: 30px;
+    height: 3px;
+    background-color: transparent;
+}
+.feelings-sec ul li:hover .linebullet, 
+.feelings-sec ul li:active .linebullet,
+.feelings-sec ul li:focus .linebullet{
+    background-color: var(--color-yellow);
+}
+.feelings-sec ul li:hover,
+.feelings-sec ul li:active,
+.feelings-sec ul li:focus{
+    color: var(--color-yellow);
+    font-weight: 600;
+}
 .spacer{
     width: 100%;
     height: 180px;
+}
+.img-height{
+    height: 300px;
 }
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {

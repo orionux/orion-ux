@@ -1,4 +1,5 @@
 import Counters from "@/components/homeComponents/Counters";
+import Feelings from "@/components/homeComponents/Feelings";
 import GetInTouch from "@/components/homeComponents/GetInTouch";
 import HeroSection from "@/components/homeComponents/HeroSection";
 import IndustryLeaders from "@/components/homeComponents/IndustryLeaders";
@@ -22,7 +23,7 @@ export default function Home() {
         <div className="container-fluid p-0 m-0 bg-color-white">
           <HeroSection />
           <Counters />
-
+          <Feelings />
           <Reason />
           <LatestProjects />
           <Target />
