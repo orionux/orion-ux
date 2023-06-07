@@ -491,8 +491,8 @@ li {
     margin-top: 30px;
 }
 .feelings-sec ul li{
-    margin-bottom: 30px;
     cursor: pointer;
+    transition: 0.5s ease;
 }
 .vr-line-feelings{
     border-right: solid 3px #E1AA00 ;
@@ -501,6 +501,7 @@ li {
     width: 30px;
     height: 3px;
     background-color: transparent;
+    transition: 0.5s ease;
 }
 .selected .linebullet,
 .feelings-sec ul li:hover .linebullet, 
@@ -515,6 +516,12 @@ li {
     color: var(--color-yellow);
     font-weight: 600;
 }
+/* .bulletVisible{
+    visibility: hidden;
+}
+.second_list_item:hover .bulletVisible{
+    visibility: visible;
+} */
 .spacer{
     width: 100%;
     height: 180px;
