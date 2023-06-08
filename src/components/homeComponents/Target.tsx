@@ -4,7 +4,7 @@ import React from "react";
 const Target = () => {
   return (
     <>
-      <div className="d-flex flex-column justify-content-center align-item-center py-5 padding-x-100px">
+      <div className="d-flex flex-column justify-content-center align-item-center pb-5 padding-top padding-x-100px">
         <h2 className="font-space-g font-500 font-48px">What We going to do</h2>
         <p className="font-raleway font-300 font-28px">
           How UI/UX design is to an Investment?

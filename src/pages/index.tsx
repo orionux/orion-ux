@@ -27,8 +27,9 @@ export default function Home() {
           <Reason />
           <LatestProjects />
           <Target />
-          <IndustryLeaders />
+          
           <VisitMarket />
+          <IndustryLeaders />
           <VisitSection />
           <GetInTouch />
         </div>

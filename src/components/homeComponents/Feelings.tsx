@@ -54,7 +54,7 @@ const Feelings = () => {
   };
 
   return (
-    <div className="d-none d-lg-flex bg-color-white py-5 padding-x-100px feelings-sec">
+    <div className="d-none d-lg-flex bg-color-white padding-x-100px feelings-sec padding-y">
       <div className="col-12 col-lg-8 d-flex flex-column flex-lg-row">
         <div className="col-12 col-lg-6 pe-5 d-flex justify-content-center flex-column text-start vr-line-feelings">
           <h2 className="font-inter font-600 font-32px">WE DESIGN</h2>

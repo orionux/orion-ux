@@ -5,7 +5,7 @@ import React from "react";
 const Reason = () => {
   return (
     <>
-      <div className="d-flex flex-column-reverse flex-lg-row py-5 padding-x-100px" style={{backgroundColor:"#EFEFEF !important"}}>
+      <div className="d-flex flex-column-reverse flex-lg-row padding-y padding-x-100px" style={{backgroundColor:"#EFEFEF !important"}}>
         <div className="col-12 col-lg-6 px-3">
           <h2 className="font-space-g font-500 font-48px mb-4">
             Why should you choose the US?

@@ -250,8 +250,16 @@ li {
     padding-left: var(--space) !important;
     padding-right: var(--space) !important;
 }
-
-
+.padding-y{
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+}
+.padding-top{
+    padding-top: 120px !important;
+}
+.padding-bottom{
+    padding-bottom: 120px !important;
+}
 
 
 
@@ -565,5 +573,9 @@ li {
     .hr-decor{
         float: none;
         margin-right: 0px;
+    }
+    .padding-y{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
