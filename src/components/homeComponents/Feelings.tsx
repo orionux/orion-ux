@@ -3,8 +3,15 @@ import React, { useState } from "react";
 
 const Feelings = () => {
   const [selectedItem, setSelectedItem] = useState("UI/UX Design");
-
-  const categories = {
+  type CategoryItem = {
+    id: number;
+    title: string;
+  };
+  
+  type Categories = {
+    [key: string]: CategoryItem[];
+  };
+  const categories: Categories = {
     "UI/UX Design": [
       { id: 1, title: "Mobile App Design" },
       { id: 2, title: "Web Site Design" },
