@@ -113,7 +113,7 @@ const Feelings = () => {
         )}
         {selectedItem === "Digital marketing" && (
           <Image
-            src={"/assests/images/visit.png"}
+            src={"/assests/images/laptop-yellow.png"}
             alt=""
             width={400}
             height={600}
