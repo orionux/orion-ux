@@ -24,6 +24,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "reactstrap": "^9.1.10",
+    "swiper": "^9.3.2",
     "typescript": "5.0.4"
   },
   "devDependencies": {
