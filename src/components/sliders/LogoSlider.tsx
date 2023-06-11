@@ -40,6 +40,24 @@ const LogoSlider = () => {
         }}
         speed={5000}
         loop={true}
+        breakpoints={{
+            0: {
+              width: 0,
+              slidesPerView: 1,
+            },
+            320: {
+                width: 320,
+                slidesPerView: 1,
+              },
+            768: {
+              width: 768,
+              slidesPerView: 3,
+            },
+            1024: {
+                width: 1024,
+                slidesPerView: 5,
+              },
+          }}
         //   pagination={{ clickable: true }}
         //   scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
