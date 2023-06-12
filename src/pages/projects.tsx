@@ -1,3 +1,4 @@
+import ImageGride from '@/components/projectsComponents/ImageGride'
 import Laptop from '@/components/projectsComponents/Laptop'
 import LargeImg from '@/components/projectsComponents/LargeImg'
 import NextCase from '@/components/projectsComponents/NextCase'
@@ -12,6 +13,7 @@ const projects = () => {
     <Laptop />
     <LargeImg />
     <Outcome />
+    <ImageGride />
     <NextCase />
     </>
   )

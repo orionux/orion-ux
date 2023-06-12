@@ -9,7 +9,7 @@ const Laptop = () => {
         alt=""
         width={900}
         height={900}
-        className="laptop-image p-5"
+        className="laptop-image p-2 p-lg-5"
       />
     </div>
   );
