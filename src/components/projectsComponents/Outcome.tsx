@@ -14,7 +14,7 @@ const Outcome = () => {
         </div>
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center bg-color-white py-5 px-5">
-        <h2 className="font-inter font-32 font-400 text-center">Do you need <b>custom app designs</b> <br />for your project?</h2>
+        <h2 className="font-inter font-32 font-500 text-center">Do you need <b>custom app designs</b> <br />for your project?</h2>
         <Image
                 src={"/assests/images/start-btn.png"}
                 alt=""
