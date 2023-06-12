@@ -566,6 +566,10 @@ li {
     width: 75%;
     height: auto;
 }
+.txt-width{
+    width: 320px;
+    height: auto;
+}
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
     .hero-img-size {
