@@ -617,6 +617,17 @@ li {
     text-decoration-color: var(--color-yellow) !important;
     text-decoration-thickness: 3px !important;
 }
+
+.title-1, .title-2{
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+.title-1{
+    color: #8C8C8C !important;
+}
+.title-2{
+    color: #555555 !important;
+}
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
     .hero-img-size {

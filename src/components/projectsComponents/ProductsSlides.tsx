@@ -510,20 +510,20 @@ const ProductsSlides = () => {
                           </Link>
                           <div className="d-flex row row-cols-1 row-cols-sm-2 row-cols-lg-4">
                             <div className="col d-flex flex-column">
-                              <p>Role</p>
-                              <p>{subtab.role}</p>
+                              <p className="title-1 mb-0">Role</p>
+                              <p className="title-2">{subtab.role}</p>
                             </div>
                             <div className="col d-flex flex-column">
-                              <p>Services</p>
-                              <p>{subtab.service}</p>
+                              <p className="title-1 mb-0">Services</p>
+                              <p className="title-2">{subtab.service}</p>
                             </div>
                             <div className="col d-flex flex-column">
-                              <p>Duration</p>
-                              <p>{subtab.duration}</p>
+                              <p className="title-1 mb-0">Duration</p>
+                              <p className="title-2">{subtab.duration}</p>
                             </div>
                             <div className="col d-flex flex-column">
-                              <p>Website</p>
-                              <p>{subtab.website}</p>
+                              <p className="title-1 mb-0">Website</p>
+                              <p className="title-2">{subtab.website}</p>
                             </div>
                           </div>
                           <Image
