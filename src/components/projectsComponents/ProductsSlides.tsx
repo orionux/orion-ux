@@ -478,7 +478,7 @@ const ProductsSlides = () => {
                   <div className="tab-content">
                     {tab.subtabs.map((subtab) => (
                       <div
-                        className={`tab-pane fade ${
+                        className={`tab-pane fade shadow p-5 ${
                           activeSubTab === subtab.id ? "show active" : ""
                         }`}
                         id={subtab.id}
@@ -488,7 +488,7 @@ const ProductsSlides = () => {
                       >
                         <div className="d-flex flex-column">
                           <div className="d-flex">
-                            <p className="title-large">
+                            <p className="title-large mb-5">
                             {subtab.contentTitlePart1 !== "" && (
                               <span
                                 className="font-inter font-400 font-48 me-2"
@@ -507,8 +507,8 @@ const ProductsSlides = () => {
                             )}
                             </p>
                           </div>
-                          <Link href={`${subtab.buttonLink}`} target="_blank">
-                            See Prototype
+                          <Link href={`${subtab.buttonLink}`} className="mb-5" target="_blank">
+                            <Image src={'/assests/images/see-prototype-btn.png'} alt="" width={200} height={50} />
                           </Link>
                           <div className="d-flex row row-cols-1 row-cols-sm-2 row-cols-lg-4">
                             <div className="col d-flex flex-column">
@@ -533,6 +533,7 @@ const ProductsSlides = () => {
                             alt=""
                             width={600}
                             height={600}
+                            className="img-case"
                           />
                         </div>
                       </div>

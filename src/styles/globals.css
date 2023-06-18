@@ -633,6 +633,10 @@ li {
 .tab-pane{
     width: 80vw !important;
 }
+.img-case{
+    width: 100% !important;
+    height: auto !important;
+}
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
     .hero-img-size {
