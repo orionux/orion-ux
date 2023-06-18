@@ -16,7 +16,7 @@ const ProductsSlides = () => {
           id: "subtab1",
           title: "Bowwow.lk",
           content: "Subtab 1 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 1",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -29,7 +29,7 @@ const ProductsSlides = () => {
           id: "subtab2",
           title: "Bowwow.lk",
           content: "Subtab 2 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 2",
           contentTitlePart2: " to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -42,7 +42,7 @@ const ProductsSlides = () => {
           id: "subtab3",
           title: "Bowwow.lk",
           content: "Subtab 3 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 3",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -55,7 +55,7 @@ const ProductsSlides = () => {
           id: "subtab4",
           title: "Bowwow.lk",
           content: "Subtab 4 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 4",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -68,7 +68,7 @@ const ProductsSlides = () => {
           id: "subtab5",
           title: "Bowwow.lk",
           content: "Subtab 5 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 5",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -81,7 +81,7 @@ const ProductsSlides = () => {
           id: "subtab6",
           title: "Bowwow.lk",
           content: "Subtab 6 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 6",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -94,7 +94,7 @@ const ProductsSlides = () => {
           id: "subtab7",
           title: "Bowwow.lk",
           content: "Subtab 7 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 7",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -113,7 +113,7 @@ const ProductsSlides = () => {
           id: "subtab1",
           title: "Bowwow.lk",
           content: "Subtab 1 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 8",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -126,7 +126,7 @@ const ProductsSlides = () => {
           id: "subtab2",
           title: "Bowwow.lk",
           content: "Subtab 2 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 9",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -139,7 +139,7 @@ const ProductsSlides = () => {
           id: "subtab3",
           title: "Bowwow.lk",
           content: "Subtab 3 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 10",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -152,7 +152,7 @@ const ProductsSlides = () => {
           id: "subtab4",
           title: "Bowwow.lk",
           content: "Subtab 4 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 11",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -165,7 +165,7 @@ const ProductsSlides = () => {
           id: "subtab5",
           title: "Bowwow.lk",
           content: "Subtab 5 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 12",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -178,7 +178,7 @@ const ProductsSlides = () => {
           id: "subtab6",
           title: "Bowwow.lk",
           content: "Subtab 6 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 13",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -191,7 +191,7 @@ const ProductsSlides = () => {
           id: "subtab7",
           title: "Bowwow.lk",
           content: "Subtab 7 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 14",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -210,7 +210,7 @@ const ProductsSlides = () => {
           id: "subtab1",
           title: "Bowwow.lk",
           content: "Subtab 1 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 15",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -223,7 +223,7 @@ const ProductsSlides = () => {
           id: "subtab2",
           title: "Bowwow.lk",
           content: "Subtab 2 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 16",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -236,7 +236,7 @@ const ProductsSlides = () => {
           id: "subtab3",
           title: "Bowwow.lk",
           content: "Subtab 3 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 17",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -249,7 +249,7 @@ const ProductsSlides = () => {
           id: "subtab4",
           title: "Bowwow.lk",
           content: "Subtab 4 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 18",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -262,7 +262,7 @@ const ProductsSlides = () => {
           id: "subtab5",
           title: "Bowwow.lk",
           content: "Subtab 5 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 19",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -275,7 +275,7 @@ const ProductsSlides = () => {
           id: "subtab6",
           title: "Bowwow.lk",
           content: "Subtab 6 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 20",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -288,7 +288,7 @@ const ProductsSlides = () => {
           id: "subtab7",
           title: "Bowwow.lk",
           content: "Subtab 7 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 21",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -307,7 +307,7 @@ const ProductsSlides = () => {
           id: "subtab1",
           title: "Bowwow.lk",
           content: "Subtab 1 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 22",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -320,7 +320,7 @@ const ProductsSlides = () => {
           id: "subtab2",
           title: "Bowwow.lk",
           content: "Subtab 2 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 23",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -333,7 +333,7 @@ const ProductsSlides = () => {
           id: "subtab3",
           title: "Bowwow.lk",
           content: "Subtab 3 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 24",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -346,7 +346,7 @@ const ProductsSlides = () => {
           id: "subtab4",
           title: "Bowwow.lk",
           content: "Subtab 4 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 25",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -359,7 +359,7 @@ const ProductsSlides = () => {
           id: "subtab5",
           title: "Bowwow.lk",
           content: "Subtab 5 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 26",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -372,7 +372,7 @@ const ProductsSlides = () => {
           id: "subtab6",
           title: "Bowwow.lk",
           content: "Subtab 6 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 27",
           contentTitlePart2: "to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -385,7 +385,7 @@ const ProductsSlides = () => {
           id: "subtab7",
           title: "Bowwow.lk",
           content: "Subtab 7 Content",
-          contentTitlePart1: "Designed marketplace ",
+          contentTitlePart1: "Designed marketplace 28",
           contentTitlePart2: " to Buy & Sell All Pets and Pet services.",
           buttonLink: "#",
           role: "Digital Product Designer",
@@ -488,22 +488,24 @@ const ProductsSlides = () => {
                       >
                         <div className="d-flex flex-column">
                           <div className="d-flex">
+                            <p className="title-large">
                             {subtab.contentTitlePart1 !== "" && (
-                              <h1
+                              <span
                                 className="font-inter font-400 font-48 me-2"
                                 style={{ color: "#B3B3B3" }}
                               >
                                 {subtab.contentTitlePart1}
-                              </h1> 
+                              </span> 
                             )}
                             {subtab.contentTitlePart2 !== "" && (
-                              <h1
+                              <span
                                 className="font-inter font-600 font-48"
                                 style={{ color: "#656565" }}
                               >
                                 {subtab.contentTitlePart2}
-                              </h1>
+                              </span>
                             )}
+                            </p>
                           </div>
                           <Link href={`${subtab.buttonLink}`} target="_blank">
                             See Prototype

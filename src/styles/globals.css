@@ -617,7 +617,9 @@ li {
     text-decoration-color: var(--color-yellow) !important;
     text-decoration-thickness: 3px !important;
 }
-
+.title-large{
+    font-size: 3em !important;
+}
 .title-1, .title-2{
     font-size: 15px !important;
     font-weight: 700 !important;
@@ -627,6 +629,9 @@ li {
 }
 .title-2{
     color: #555555 !important;
+}
+.tab-pane{
+    width: 80vw !important;
 }
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
