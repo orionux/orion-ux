@@ -478,7 +478,7 @@ const ProductsSlides = () => {
                   <div className="tab-content">
                     {tab.subtabs.map((subtab) => (
                       <div
-                        className={`tab-pane fade shadow p-5 ${
+                        className={`tab-pane fade p-5 ${
                           activeSubTab === subtab.id ? "show active" : ""
                         }`}
                         id={subtab.id}
@@ -487,45 +487,56 @@ const ProductsSlides = () => {
                         key={subtab.id}
                       >
                         <div className="d-flex flex-column">
-                          <div className="d-flex">
-                            <p className="title-large mb-5">
-                            {subtab.contentTitlePart1 !== "" && (
-                              <span
-                                className="font-inter font-400 font-48 me-2"
-                                style={{ color: "#B3B3B3" }}
-                              >
-                                {subtab.contentTitlePart1}
-                              </span> 
-                            )}
-                            {subtab.contentTitlePart2 !== "" && (
-                              <span
-                                className="font-inter font-600 font-48"
-                                style={{ color: "#656565" }}
-                              >
-                                {subtab.contentTitlePart2}
-                              </span>
-                            )}
-                            </p>
-                          </div>
-                          <Link href={`${subtab.buttonLink}`} className="mb-5" target="_blank">
-                            <Image src={'/assests/images/see-prototype-btn.png'} alt="" width={200} height={50} />
-                          </Link>
-                          <div className="d-flex row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-                            <div className="col d-flex flex-column">
-                              <p className="title-1 mb-0">Role</p>
-                              <p className="title-2">{subtab.role}</p>
+                          <div className="d-flex flex-column shadow p-5 mb-2">
+                            <div className="d-flex">
+                              <p className="title-large mb-5">
+                                {subtab.contentTitlePart1 !== "" && (
+                                  <span
+                                    className="font-inter font-400 font-48 me-2"
+                                    style={{ color: "#B3B3B3" }}
+                                  >
+                                    {subtab.contentTitlePart1}
+                                  </span>
+                                )}
+                                {subtab.contentTitlePart2 !== "" && (
+                                  <span
+                                    className="font-inter font-600 font-48"
+                                    style={{ color: "#656565" }}
+                                  >
+                                    {subtab.contentTitlePart2}
+                                  </span>
+                                )}
+                              </p>
                             </div>
-                            <div className="col d-flex flex-column">
-                              <p className="title-1 mb-0">Services</p>
-                              <p className="title-2">{subtab.service}</p>
-                            </div>
-                            <div className="col d-flex flex-column">
-                              <p className="title-1 mb-0">Duration</p>
-                              <p className="title-2">{subtab.duration}</p>
-                            </div>
-                            <div className="col d-flex flex-column">
-                              <p className="title-1 mb-0">Website</p>
-                              <p className="title-2">{subtab.website}</p>
+                            <Link
+                              href={`${subtab.buttonLink}`}
+                              className="mb-5"
+                              target="_blank"
+                            >
+                              <Image
+                                src={"/assests/images/see-prototype-btn.png"}
+                                alt=""
+                                width={200}
+                                height={50}
+                              />
+                            </Link>
+                            <div className="d-flex row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                              <div className="col d-flex flex-column">
+                                <p className="title-1 mb-0">Role</p>
+                                <p className="title-2">{subtab.role}</p>
+                              </div>
+                              <div className="col d-flex flex-column">
+                                <p className="title-1 mb-0">Services</p>
+                                <p className="title-2">{subtab.service}</p>
+                              </div>
+                              <div className="col d-flex flex-column">
+                                <p className="title-1 mb-0">Duration</p>
+                                <p className="title-2">{subtab.duration}</p>
+                              </div>
+                              <div className="col d-flex flex-column">
+                                <p className="title-1 mb-0">Website</p>
+                                <p className="title-2">{subtab.website}</p>
+                              </div>
                             </div>
                           </div>
                           <Image
