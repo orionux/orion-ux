@@ -1,8 +1,10 @@
 /* eslint-disable react/jsx-key */
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 const ImageGride = () => {
+  const [activeImg, setActiveImage] = useState('/assests/images/large-2.png');
+
   const colImages = [
     { id: 1, path: "/assests/images/large-2.png", title: "Blue Prints" },
     { id: 2, path: "/assests/images/large-3.png", title: "Design System" },
@@ -13,7 +15,7 @@ const ImageGride = () => {
     <div className="d-flex flex-column padding-x-100px bg-color-white py-5">
       <div className="d-flex w-100">
         <Image
-          src={"/assests/images/large-1.png"}
+          src={activeImg}
           alt=""
           width={1024}
           height={1024}
@@ -30,6 +32,8 @@ const ImageGride = () => {
                 width={300}
                 height={250}
                 className="img-fluid"
+                onClick={()=>setActiveImage(item.path)}
+                style={{cursor:'pointer'}}
               />
               <p className="font-inter font-22px font-400 text-center mt-2">{item.title}</p>
             </div>
