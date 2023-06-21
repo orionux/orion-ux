@@ -1,9 +1,11 @@
 // import Image from 'next/image'
+import Image from 'next/image'
 import React from 'react'
+import ProjectSlider from '../sliders/ProjectSlider'
 
 const LargeImg = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center screen-fit-img bg-img">
+    <div className="d-flex justify-content-center align-items-center">
       {/* <Image
         src={"/assests/images/bg-img.png"}
         alt=""
@@ -11,6 +13,7 @@ const LargeImg = () => {
         height={900}
         className="laptop-image"
       /> */}
+      <ProjectSlider />
     </div>
   )
 }

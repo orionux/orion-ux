@@ -14,8 +14,9 @@ const projects = () => {
     <SliderSec />
     <Laptop />
     <LargeImg />
-    <Outcome />
     <ImageGride />
+    <Outcome />
+    
     <NextCase />
     </>
   )
