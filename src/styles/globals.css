@@ -637,6 +637,56 @@ li {
     width: 100% !important;
     height: auto !important;
 }
+.tab-text-research h2{
+    color: #4F4F4F;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: var(--font-primary);
+}
+.tab-text-research h3{
+    color: #484848;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--font-primary);
+}
+.tab-text-research p{
+    color: #717171;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: var(--font-primary);
+}
+
+
+/* tabs */
+.tab-pane.fade {
+    opacity: 0 !important;
+    transition: opacity 0.5s ease-in-out !important;
+  }
+  
+  .tab-pane.fade.show {
+    opacity: 1 !important;
+  }
+  #myTabResearch{
+    position: absolute;
+    top: 0;
+    margin-left: -50px !important;
+    border: none;
+    margin-top: -50px;
+  }
+  #myTabResearch li button{
+    padding: 0 !important;
+  }
+  #myTabResearch li button{
+    border: none !important;
+    background-color: transparent !important;
+  }
+  #myTabResearch li button.active img{
+    transform: width 5s ease,  height 5s ease ;
+  }
+  #myTabResearch li button.active img{
+    width: 120px !important;
+    height: 120px !important;
+  }
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
     .hero-img-size {
