@@ -57,7 +57,7 @@ const LatestProjects = () => {
                 <div className="col-12 col-lg-3">
 
                 </div>
-                <div className="col-12 col-lg-9 text-center d-flex flex-column align-items-center ">
+                <div className="col-12 col-lg-9 text-center d-flex flex-column align-items-center " data-aos="zoom-out-up" data-aos-duration="2000">
                   <h3 className="font-inter font-700 font-32px pt-5" style={{ color: '#EDB507' }}>Bowwow.lk</h3>
                   <Image src={image} alt='' width={400} height={225} />
                   <div className="d-flex flex-column justify-content-start align-items-start">
@@ -74,7 +74,7 @@ const LatestProjects = () => {
           
           <div className="d-flex flex-column justify-content-end flex-lg-row row row-cols-1 row-cols-md-2 row-cols-lg-5 col-position">
             {/* col 1 */}
-            <div onClick={handleClickPink} className="col col-pink col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickPink} className="col col-pink col-laptop d-flex flex-column justify-content-center align-items-center" data-aos="zoom-out-up" data-aos-duration="1000">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}
@@ -92,7 +92,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* col 2 */}
-            <div onClick={handleClickBlue} className="col col-blue col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickBlue} className="col col-blue col-laptop d-flex flex-column justify-content-center align-items-center" data-aos="zoom-out-up" data-aos-duration="1500">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}
@@ -110,7 +110,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* col 3 */}
-            <div onClick={handleClickOrange} className="col col-orange col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickOrange} className="col col-orange col-laptop d-flex flex-column justify-content-center align-items-center" data-aos="zoom-out-up" data-aos-duration="2000">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}
@@ -128,7 +128,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* col 4 */}
-            <div onClick={handleClickPurple} className="col col-purple col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickPurple} className="col col-purple col-laptop d-flex flex-column justify-content-center align-items-center" data-aos="zoom-out-up" data-aos-duration="2500">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}
@@ -146,7 +146,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* col 5 */}
-            <div onClick={handleClickGreen} className="col col-green col-laptop d-flex flex-column justify-content-center align-items-center">
+            <div onClick={handleClickGreen} className="col col-green col-laptop d-flex flex-column justify-content-center align-items-center" data-aos="zoom-out-up" data-aos-duration="3000">
               <h3 className="text-white font-700 font-16px">Bowwow.lk</h3>
               <Image
                 src={"/assests/images/laptop-no-inner.png"}

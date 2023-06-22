@@ -7,7 +7,9 @@ const HeroSection = () => {
   return (
     <>
       <div className="d-flex flex-column-reverse flex-lg-row bg-color-white height-80vh position-relative">
-        <div className="col-12 col-lg-6 d-flex flex-column justify-content-center padding-left-100px">
+        <div className="col-12 col-lg-6 d-flex flex-column justify-content-center padding-left-100px" 
+        data-aos="fade-right"
+     data-aos-duration="3000">
           <h2 className="txt-color-gray font-600 font-64px font-inter">
             We design Feeling
           </h2>

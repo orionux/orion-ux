@@ -6,7 +6,9 @@ const Reason = () => {
   return (
     <>
       <div className="d-flex flex-column-reverse flex-lg-row padding-y padding-x-100px" style={{backgroundColor:"#EFEFEF !important"}}>
-        <div className="col-12 col-lg-6 px-3">
+        <div className="col-12 col-lg-6 px-3"
+        data-aos="fade-right"
+        data-aos-duration="3000">
           <h2 className="font-space-g font-500 font-48px mb-4">
             Why should you choose the US?
           </h2>
@@ -73,7 +75,9 @@ const Reason = () => {
             />
           </Link>
         </div>
-        <div className="col-12 col-lg-6 px-3 d-flex justify-content-center align-item-center">
+        <div className="col-12 col-lg-6 px-3 d-flex justify-content-center align-item-center"
+        data-aos="fade-left"
+        data-aos-duration="3000">
           <Image
             src={"/assests/images/why-side-img.png"}
             alt=""
