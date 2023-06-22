@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 const Feelings = () => {
-  const [selectedItem, setSelectedItem] = useState("UI/UX Design");
+  const [selectedItem, setSelectedItem] = useState("Our Products");
   type CategoryItem = {
     id: number;
     title: string;
@@ -12,40 +12,30 @@ const Feelings = () => {
     [key: string]: CategoryItem[];
   };
   const categories: Categories = {
-    "UI/UX Design": [
-      { id: 1, title: "Mobile App Design" },
-      { id: 2, title: "Web Site Design" },
-      { id: 3, title: "Desktop App Design" },
-      { id: 4, title: "Desktop App Design" },
-      { id: 5, title: "Rewamp(RE - design)" },
-    ],
-    "Software Development": [
-      { id: 1, title: "Software Development 1" },
-      { id: 2, title: "Software Development 2" },
-      { id: 3, title: "Software Development 3" },
-      { id: 4, title: "Software Development 4" },
-      { id: 5, title: "Software Development 5" },
-    ],
-    Branding: [
-      { id: 1, title: "Branding 1" },
-      { id: 2, title: "Branding 2" },
-      { id: 3, title: "Branding 3" },
-      { id: 4, title: "Branding 4" },
-      { id: 5, title: "Branding 5" },
+    "Our Products": [
+      { id: 1, title: "ERP System" },
+      { id: 2, title: "Hotel Management System" },
     ],
     "Digital Marketing": [
-      { id: 1, title: "Digital Marketing 1" },
-      { id: 2, title: "Digital Marketing 2" },
-      { id: 3, title: "Digital Marketing 3" },
-      { id: 4, title: "Digital Marketing 4" },
-      { id: 5, title: "Digital Marketing 5" },
+      { id: 1, title: "Social Media Marketing" },
+      { id: 2, title: "Search Engine Optimization (SEO)" },
+      { id: 3, title: "Pay-Per-Click Advertising (PPC)" },
+      { id: 4, title: "Online Reputation Management" },
+      { id: 5, title: "Digital Strategy and Consultation" },
     ],
-    "Our Products": [
-      { id: 1, title: "Our Products 1" },
-      { id: 2, title: "Our Products 2" },
-      { id: 3, title: "Our Products 3" },
-      { id: 4, title: "Our Products 4" },
-      { id: 5, title: "Our Products 5" },
+    "Brandings": [
+      { id: 1, title: "Brand Strategy" },
+      { id: 2, title: "Brand Identity Design" },
+      { id: 3, title: "Brand Guidelines" },
+      { id: 4, title: "Brand Research and Analysis" },
+      { id: 5, title: "Brand Monitoring and Management:" },
+    ],
+    "Software Development": [
+      { id: 1, title: "Web Development" },
+      { id: 2, title: "Mobile App Development" },
+      { id: 3, title: "Quality Assurance and Testing" },
+      { id: 4, title: "Enterprise Software Solutions" },
+      { id: 5, title: "Maintenance and Support" },
     ],
   };
 
@@ -91,9 +81,27 @@ const Feelings = () => {
         </div>
       </div>
       <div className="col-12 col-lg-4 img-height">
-        {selectedItem === "UI/UX Design" && (
+        {selectedItem === "Our Products" && (
           <Image
             src={"/assests/images/feelings-image.png"}
+            alt=""
+            width={400}
+            height={600}
+            className="img-fluid"
+          />
+        )}
+        {selectedItem === "Digital Marketing" && (
+          <Image
+            src={"/assests/images/laptop-yellow.png"}
+            alt=""
+            width={400}
+            height={600}
+            className="img-fluid"
+          />
+        )}
+        {selectedItem === "Brandings" && (
+          <Image
+            src={"/assests/images/laptop-pink.png"}
             alt=""
             width={400}
             height={600}
@@ -103,33 +111,6 @@ const Feelings = () => {
         {selectedItem === "Software Development" && (
           <Image
             src={"/assests/images/laptop-yellow.png"}
-            alt=""
-            width={400}
-            height={600}
-            className="img-fluid"
-          />
-        )}
-        {selectedItem === "Branding" && (
-          <Image
-            src={"/assests/images/laptop-pink.png"}
-            alt=""
-            width={400}
-            height={600}
-            className="img-fluid"
-          />
-        )}
-        {selectedItem === "Digital marketing" && (
-          <Image
-            src={"/assests/images/laptop-yellow.png"}
-            alt=""
-            width={400}
-            height={600}
-            className="img-fluid"
-          />
-        )}
-        {selectedItem === "Our Products" && (
-          <Image
-            src={"/assests/images/learnimg.png"}
             alt=""
             width={400}
             height={600}

@@ -14,8 +14,7 @@ const HeroSection = () => {
             We design Feeling
           </h2>
           <p className="font-raleway font-400 font-24px">
-            We Maily Design a user interface that aligns well with your business
-            goals and creates excellent conversion rates.
+          We Design user interfaces which are align well with your business goals and also We specialize in creating seamless digital experiences that captivate users, enhance usability, and elevate your brand to new heights.
           </p>
           {/* <Button className='font-raleway btn-hero-sec'>Get Start</Button> */}
           <Link href={"#"} className="">
