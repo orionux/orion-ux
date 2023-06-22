@@ -109,7 +109,9 @@ li {
 .font-22px {
     font-size: 22px;
 }
-
+.font-small-22px{
+    font-size: 22px;
+}
 .font-21px {
     font-size: 21px;
 }
@@ -716,6 +718,10 @@ li {
         width: 100%;
         height: auto;
     }
+    #myTabResearch{
+        margin-left: 0px !important;
+        margin-top: -50px;
+      }
 }
 
 @media only screen and (max-width: 600px) {
@@ -729,5 +735,8 @@ li {
     .padding-y{
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .font-small-22px{
+        font-size: 15px;
     }
 }

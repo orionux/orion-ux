@@ -35,7 +35,7 @@ const ImageGride = () => {
                 onClick={()=>setActiveImage(item.path)}
                 style={{cursor:'pointer'}}
               />
-              <p className="font-inter font-22px font-400 text-center mt-2">{item.title}</p>
+              <p className="font-inter font-small-22px font-400 text-center mt-2">{item.title}</p>
             </div>
           </div>
         ))}

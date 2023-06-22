@@ -129,7 +129,7 @@ const SliderSec = () => {
       <div className="d-flex flex-column align-items-center position-relative  w-100">
         <div className="d-flex flex-column flex-lg-row w-100">
           <div className="col-12 col-lg-7"></div>
-          <div className="col-12 col-lg-5 position-relative d-flex flex-row justify-content-start align-items-start">
+          <div className="col-12 col-lg-5 position-relative d-flex flex-row justify-content-center justify-content-lg-start align-items-center align-items-lg-start">
             <ul
               className="nav nav-tabs"
               id="myTabResearch"
@@ -179,7 +179,7 @@ const SliderSec = () => {
               key={tab.id}
             >
               <div className="d-flex flex-column-reverse flex-lg-row tab-text-research">
-                <div className="col-12 col-lg-7 p-5">
+                <div className="col-12 col-lg-7 p-2 p-lg-5">
                   <h2 className="mb-3">{tab.mainTitle}</h2>
                   {tab.details.map((subtab) => (
                     <div key={subtab.id}>

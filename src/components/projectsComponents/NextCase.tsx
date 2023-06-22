@@ -14,26 +14,26 @@ import Image from "next/image";
 
 const NextCase = () => {
   const slideImages = [
-    { id: 1, path: "/assests/images/next-img.png", title:"Blue Prints" },
-    { id: 2, path: "/assests/images/next-img.png", title:"Blue Prints" },
-    { id: 3, path: "/assests/images/next-img.png", title:"Blue Prints" },
+    { id: 1, path: "/assests/images/next-img.png", title:"Blue Prints 1" },
+    { id: 2, path: "/assests/images/next-img.png", title:"Blue Prints 2" },
+    { id: 3, path: "/assests/images/next-img.png", title:"Blue Prints 3" },
   ];
   return (
-    <div className="d-flex flex-column bg-color-yellow py-5 padding-x-100px">
+    <div className="d-flex flex-column bg-color-yellow py-5 padding-x-100px w-100">
       <h2 className="font-inter font-48px text-white">
         Next <b>Case Study</b>
       </h2>
-      <div className="d-flex justify-content-center align-items-center py-5">
+      <div className="d-flex justify-content-center align-items-center py-5 w-100">
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
           spaceBetween={10}
           slidesPerView={3}
           //   navigation
-          autoplay={{
-            delay: 1,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 1,
+          //   disableOnInteraction: false,
+          // }}
           speed={5000}
           loop={true}
           breakpoints={{
@@ -50,14 +50,14 @@ const NextCase = () => {
               slidesPerView: 3,
             },
           }}
-          //   pagination={{ clickable: true }}
+            pagination={{ clickable: true }}
           //   scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >
           {slideImages.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="d-flex flex-column justify-content-center align-items-center">
+              <div className="d-flex  flex-column justify-content-center align-items-center">
                 <Image
                   src={item.path}
                   alt=""
