@@ -400,7 +400,7 @@ const ProductsSlides = () => {
 
   return (
     <>
-      <div className="py-5 mt-5 w-100 d-flex flex-column align-items-center justify-content-center">
+      <div className="py-5 mt-5 w-100 d-none d-lg-flex flex-column align-items-center justify-content-center">
         <div className="d-flex flex-column align-items-center ">
           <div className="d-flex flex-column align-items-center  w-100">
             <ul
@@ -487,7 +487,7 @@ const ProductsSlides = () => {
                         key={subtab.id}
                       >
                         <div className="d-flex flex-column">
-                          <div className="d-flex flex-column shadow p-5 mb-2">
+                          <div className="d-flex flex-column shadow p-2 p-lg-5 mb-2">
                             <div className="d-flex">
                               <p className="title-large mb-5">
                                 {subtab.contentTitlePart1 !== "" && (
