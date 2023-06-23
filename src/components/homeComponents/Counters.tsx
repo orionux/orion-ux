@@ -62,7 +62,7 @@ const Counters = () => {
           return prevCounter4;
         }
       });
-    }, 200);
+    }, 100);
 
     return () => clearInterval(timer);
   }, []);

@@ -414,16 +414,45 @@ li {
     font-family: var(--font-primary);
 }
 .space-1{
-    margin-right: -25px;
+    margin-right: 30px;
+    transform: font-size 9s ease-in;
 }
 .space-2{
-    margin-right: -50px;
+    margin-right: 0px;
 }
 .space-3{
-    margin-right: -75px;
+    margin-right: -30px;
 }
 .space-4{
-    margin-right: -100px;
+    margin-right: -60px;
+}
+.space-5{
+    margin-right: -90px;
+}
+.space-1:hover,
+.space-2:hover,
+.space-3:hover,
+.space-4:hover,
+.space-5:hover {
+    font-size: 26px;
+    text-decoration: underline;
+    text-decoration-color: #E1AA00;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+.space-1:focus, .space-1:active,
+.space-2:focus, .space-2:active,
+.space-3:focus, .space-3:active,
+.space-4:focus, .space-4:active,
+.space-5:focus, .space-5:active{
+    text-decoration: underline;
+    text-decoration-color: #E1AA00;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+.empty-column{
+    pointer-events: none !important;
 }
 .rectangle-bg{
     background-image: url('/assests/images/Rectangle.png');
