@@ -15,13 +15,13 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
   };
 
   return (
-    <div className="p-0 m-0 position-relative">
-      <div className="d-none d-lg-block nav-header-img">
+    <div className="p-0 m-0 position-relative w-100">
+      <div className="d-none d-lg-block nav-header-img w-100">
         <Image
           src={"/assests/images/Vector 1.png"}
           alt=""
           width={1600}
-          height={350}
+          height={800}
           className="img-fluid"
         />
       </div>
