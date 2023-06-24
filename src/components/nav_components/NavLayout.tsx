@@ -15,16 +15,17 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
   };
 
   return (
-    <div className="p-0 m-0 position-relative w-100">
-      <div className="d-none d-lg-block nav-header-img w-100">
-        <Image
-          src={"/assests/images/Vector 1.png"}
+    <>
+    <div className="d-none d-lg-block nav-header-img w-100">
+        {/* <Image
+          src={"/assests/images/VectorNav.png"}
           alt=""
-          width={1600}
+          width={1300}
           height={800}
           className="img-fluid"
-        />
+        /> */}
       </div>
+    <div className="p-0 m-0 position-relative over-hidd">
       <nav className="navbar navbar-expand-xl main-padding padding-x-100px px-5 position-relative z999">
         <div className="container-fluid px-0">
           {/* side logo area */}
@@ -127,8 +128,10 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
         </div>
       </nav>
       <ActiveNav />
+      
       {children}
     </div>
+    </>
   );
 };
 
