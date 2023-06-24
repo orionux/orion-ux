@@ -1,9 +1,23 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const LatestProjects = () => {
   const [image, setImage] = useState("/assests/images/laptop-yellow.png");
+  const [selectedButton, setSelectedButton] = useState(1);
+  const [selectedItem, setSelectedItem] = useState(1);
+
+
+
+  useEffect(() => {
+    const handleButtonOnclick = ()=>{
+      console.log("selected item handle: ",selectedButton)
+    }
+    handleButtonOnclick()
+  }, [selectedButton])
+  
+
+
   const handleClickPink = () => {
     setImage("/assests/images/laptop-pink.png");
   };
@@ -19,38 +33,216 @@ const LatestProjects = () => {
   const handleClickGreen = () => {
     setImage("/assests/images/laptop-pink.png");
   };
+
+  const data = [
+    {
+      id: 1,
+      buttonTitle: "UI/UX Design",
+      alignment: "space-1",
+      dataItems: [
+        {
+          id: 1,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 2,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 3,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 4,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 5,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+      ],
+    },
+    {
+      id: 2,
+      buttonTitle: "Digital Art Works",
+      alignment: "space-2",
+      dataItems: [
+        {
+          id: 1,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 2,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 3,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 4,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 5,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+      ],
+    },
+    {
+      id: 3,
+      buttonTitle: "Digital Marketing",
+      alignment: "space-3",
+      dataItems: [
+        {
+          id: 1,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 2,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 3,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 4,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 5,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+      ],
+    },
+    {
+      id: 4,
+      buttonTitle: "Branding",
+      alignment: "space-4",
+      dataItems: [
+        {
+          id: 1,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 2,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 3,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 4,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 5,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+      ],
+    },
+    {
+      id: 5,
+      buttonTitle: "3D Designs",
+      alignment: "space-5",
+      dataItems: [
+        {
+          id: 1,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 2,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 3,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 4,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+        {
+          id: 5,
+          title: "Bowwow.lk",
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lacus, vitae amet, elit. Elit, elit, tortor ipsumquis pellentesque nisl.",
+          image: "/assests/images/laptop-pink.png",
+        },
+      ],
+    },
+  ];
+
+  
+
   return (
     <>
       <div className="d-none d-lg-flex bg-color-dark-gray py-5 padding-x-100px">
         <div className="d-flex flex-column w-100 position-relative">
           <div className="d-flex flex-column flex-lg-row">
             <div className="col-12 col-lg-4 mt-5">
-              {/* <div className="d-flex flex-column flex-lg-row pt-5">
-                <div className="col-12 col-lg-10">
-                  <h2 className="text-white font-48px font-space-g font-600 space-2">UI/UX Design</h2>
-                  <div className="hr-decor"></div>
-                </div>
-                <div className="col-12 col-lg-2"></div>
-              </div> */}
-
               <div className="d-flex flex-column flex-lg-row">
-                {/* <div className="col-12 col-lg-3"></div> */}
                 <div className=".col-12 col-lg-10 d-flex flex-column align-items-center align-items-lg-end">
-                  <button className="btn-link-latest mb-3 mt-5 space-1 font-inter font-20px ">
-                    UI/UX Design
-                  </button>
-                  <button className="btn-link-latest mb-3 mt-3 space-2 font-inter font-20px ">
-                    Digital Art Works
-                  </button>
-                  <button className="btn-link-latest mb-3 mt-3 space-3 font-inter font-20px">
-                    Digital Marketing
-                  </button>
-                  <button className="btn-link-latest mb-3 mt-3 space-4 font-inter font-20px">
-                    Branding
-                  </button>
-                  <button className="btn-link-latest mb-3 mt-3 space-5 font-inter font-20px">
-                    3D Designs
-                  </button>
+                  {data.map((item) => (
+                    <button
+                      key={item.id}
+                      onClick={()=> {
+                        setSelectedButton(item.id)
+                      }}
+                      className={`btn-link-latest mb-3 mt-4 ${item.alignment} font-inter font-20px `}
+                    >
+                      {item.buttonTitle}
+                    </button>
+                  ))}
                 </div>
               </div>
             </div>

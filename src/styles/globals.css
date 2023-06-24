@@ -344,12 +344,21 @@ li {
     position: absolute !important;
     left: 0 !important;
     top: 0 !important;
-    /* width: 100vw !important;
-    height: 250px !important; */
+    width: 100vw !important;
+    height: 350px !important;
     z-index: 99 !important;
     pointer-events: none !important;
+    overflow: hidden !important;
 }
-
+.overflow-hidd{
+    overflow: hidden !important;
+    width: 100vw !important;
+    height: auto !important;
+}
+.img-visit{
+    width: 100% !important;
+    height: auto !important;
+}
 
 .z999 {
     z-index: 9999 !important;
