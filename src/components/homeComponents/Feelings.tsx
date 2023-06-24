@@ -47,8 +47,10 @@ const Feelings = () => {
     <div className="d-none d-lg-flex bg-color-white padding-x-100px feelings-sec padding-y">
       <div className="col-12 col-lg-8 d-flex flex-column flex-lg-row">
         <div className="col-12 col-lg-6 pe-5 d-flex justify-content-center flex-column text-start vr-line-feelings">
-          <h2 className="font-inter font-600 font-32px">WE DESIGN</h2>
-          <h2 className="font-inter font-600 font-48px">FEELINGS</h2>
+          <h2 className="font-inter font-600 font-32px"  data-aos="fade-right"
+          data-aos-duration="2000">WE DESIGN</h2>
+          <h2 className="font-inter font-600 font-48px"  data-aos="fade-right"
+          data-aos-duration="3000">FEELINGS</h2>
           <ul className="ps-0 font-inter font-400 font-18px" style={{ listStyle: "none" }}>
             {Object.keys(categories).map((category) => (
               <li
@@ -80,7 +82,8 @@ const Feelings = () => {
           </ul>
         </div>
       </div>
-      <div className="col-12 col-lg-4 img-height">
+      <div className="col-12 col-lg-4 img-height"  data-aos="fade-left"
+          data-aos-duration="3000">
         {selectedItem === "Our Products" && (
           <Image
             src={"/assests/images/feelings-image.png"}
