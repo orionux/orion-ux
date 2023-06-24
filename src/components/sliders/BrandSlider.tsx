@@ -21,53 +21,53 @@ const BrandSlider = () => {
   ];
 
   return (
-    <div className="py-5">
-      <Swiper
-        // install Swiper modules
-        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-        spaceBetween={10}
-        slidesPerView={4}
-        //   navigation
-        autoplay={{
-          delay: 1,
-          disableOnInteraction: false,
-        }}
-        speed={5000}
-        loop={true}
-        breakpoints={{
-            0: {
-              width: 0,
-              slidesPerView: 1,
-            },
-            768: {
-              width: 768,
-              slidesPerView: 2,
-            },
-            1024: {
-                width: 1024,
-                slidesPerView: 4,
-              },
-          }}
-        //   pagination={{ clickable: true }}
-        //   scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
-      >
-        {slideImages.map((item) => (
-          <SwiperSlide key={item.id}>
-            <div className="d-flex justify-content-center align-items-center">
-              <Image
-                src={item.path}
-                alt=""
-                width={200}
-                height={200}
-                className="img-fluid"
-              />
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+    <>
+     <div className="py-5 d-flex justify-content-center align-items-center">
+       <Swiper
+         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+         spaceBetween={10}
+         slidesPerView={4}
+         autoplay={{
+           delay: 1,
+           disableOnInteraction: false,
+         }}
+         speed={5000}
+         loop={true}
+         breakpoints={{
+             0: {
+               width: 0,
+               slidesPerView: 1,
+             },
+             768: {
+               width: 768,
+               slidesPerView: 2,
+             },
+             1024: {
+                 width: 1024,
+                 slidesPerView: 4,
+               },
+           }}
+         onSwiper={(swiper) => console.log(swiper)}
+         onSlideChange={() => console.log("slide change")}
+       >
+         {slideImages.map((item) => (
+           <SwiperSlide key={item.id}>
+             <div className="d-flex justify-content-center align-items-center">
+               <Image
+                 src={item.path}
+                 alt=""
+                 width={200}
+                 height={200}
+                 className="img-fluid"
+               />
+             </div>
+           </SwiperSlide>
+         ))}
+       </Swiper>
+     </div>
+    </>
+
+    
   );
 };
 

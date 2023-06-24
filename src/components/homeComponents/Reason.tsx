@@ -67,7 +67,7 @@ const Reason = () => {
           </div>
           <Link href={"#"} className="">
             <Image
-              src={"/assests/images/contact-us button.png"}
+              src={"/assests/images/contact-us-btn.png"}
               alt=""
               width={200}
               height={50}
