@@ -1,7 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Outcome = () => {
+
   return (
     <>
       <div className="d-flex flex-column justify-content-center align-items-center bg-color-dark-gray py-5 px-5">
@@ -15,14 +17,16 @@ const Outcome = () => {
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center bg-color-white py-5 px-5">
         <h2 className="font-inter font-32 font-500 text-center">Do you need <b>custom app designs</b> <br />for your project?</h2>
-        <Image
-                src={"/assests/images/start-btn.png"}
-                alt=""
-                width={150}
-                height={150}
-                className="img-fluid"
-              />
+        <div className="d-flex w-100 justify-content-center py-3">
+        <div className="round-button-container"></div>
+        <div className="round-button-container-text d-flex justify-content-center align-items-center">
+          <Link href={'#'} className="round-btn-fixed-text">START</Link>
+        </div>
       </div>
+      </div>
+
+      
+
     </>
   );
 };
